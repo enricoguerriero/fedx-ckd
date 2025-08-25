@@ -1,0 +1,15 @@
+# Core deep learning framework
+torch==2.3.0
+torchvision==0.16.0
+
+# Numerical computing
+numpy==1.24.4
+
+# Progress bars
+tqdm==4.66.2
+
+# Experiment tracking (optional)
+wandb==0.16.6
+
+# Utilities
+scikit-learn==1.4.0

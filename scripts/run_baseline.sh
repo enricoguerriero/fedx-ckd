@@ -1,0 +1,11 @@
+python -m src.eval.baseline_central \
+  --dataset cifar10 \
+  --epochs 100 \
+  --batch_size 128 \
+  --seed 42 \
+  --device auto \
+  --lr 0.01 \
+  --momentum 0.9 \
+  --weight_decay 1e-5 \
+  --wandb_project FedX_CKD \
+  --outdir runs/cifar10_central_s42

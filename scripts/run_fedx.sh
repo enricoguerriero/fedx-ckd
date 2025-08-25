@@ -1,0 +1,11 @@
+python -m src.fedx.trainer \
+  --dataset cifar10 \
+  --n_clients 10 \
+  --epochs_per_round 1 \
+  --n_rounds 5 \
+  --beta 0.5 \
+  --batch_size 128 \
+  --seed 42 \
+  --device auto \
+  --wandb_project FedX_CKD \
+  --outdir runs/cifar10_fedx_s42
